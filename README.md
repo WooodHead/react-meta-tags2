@@ -43,7 +43,7 @@ Note : Define id on tags so if you navigate to other page, older meta tags will 
 If you just want to add title on a page you can use ReactTitle instead.
 ```jsx
 import React from 'react';
-import {ReactTitle} from 'react-meta-tags';
+import {ReactTitle} from 'react-meta-tags2';
 
 class Component2 extends React.Component {
   render() {
@@ -61,7 +61,7 @@ class Component2 extends React.Component {
 
 ```jsx
 import MetaTagsServer from 'react-meta-tags/server';
-import {MetaTagsContext} from 'react-meta-tags';
+import {MetaTagsContext} from 'react-meta-tags2';
 /** Import other required modules **/
 
 /*
