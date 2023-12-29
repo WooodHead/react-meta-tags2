@@ -1,11 +1,14 @@
-# react-meta-tags
+# react-meta-tags2
+
+https://github.com/aliozinan/react-meta-tags
+
 Handle document meta/head tags in isomorphic react with ease.
 
 Handling title and meta/head tags in a isomporhic react is tricky. Its declarative to define those tags within the component, but they need to be moved on document head on client side as well as server side. While there are other modules which helps with the use-case like <a href="https://github.com/nfl/react-helmet" target="_blank">react-helmet</a> and  <a href="https://github.com/kodyl/react-document-meta" target="_blank">react-document-meta</a>, but they require to define those tags in a object literal. react-meta-tags allow you to write those tags in a declarative way and in normal jsx format.
 
 ### Install
 Through npm
-`npm install react-meta-tags --save`
+`npm install react-meta-tags2 --save`
 
 Or get compiled development and production version from ./dist
 
@@ -15,7 +18,7 @@ Or get compiled development and production version from ./dist
 
 ```jsx
 import React from 'react';
-import MetaTags from 'react-meta-tags';
+import MetaTags from 'react-meta-tags2';
 
 class Component1 extends React.Component {
   render() {
